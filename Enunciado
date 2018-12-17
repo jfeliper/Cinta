@@ -1,7 +1,18 @@
 PRACTICA 3.1 CINTA TRANSPORTADORA CON S7-1214
 1-Objetivo
 
+El objetivo de esta práctica es controlar una cinta transportadora movida por un motor trifásico. 
+El motor trifásico puede girar en los dos sentidos mediante un variador G110. 
+El control será mediante un autómata S7-1214
+
 2-Funcionamiento
+
+El automatismo deberá tener dos modos de funcionamiento, automático y manual, mediante un selector de dos posiciones.
+La posición de manual sirve para ajustes en la puesta en marcha. 
+En manual, al accionar el pulsador derecho, la cinta se mueve a la derecha. Al soltarlo se para. 
+Si llega al extremo derecho el sensor lo detecta y se para.
+Al accionar el pulsador izquierdo, la cinta se mueve a la izquierda. Al soltarlo se para. 
+Si llega al extremo izquierdo se para.
 
 3-Entradas y Salidas
 
