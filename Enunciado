@@ -18,5 +18,6 @@ Si llega al extremo izquierdo se para.
 
 Listado de elementos conectados a entradas y salidas del autómata.
 Indicar nombre en esquema eléctrico (referencia y función) Dirección de la entrada, Voltaje, NO,NC si es rápida...
+En las salidas hay que indicar si van a controlar cargas de 24V DC ó 220V AC ó si son rápidas, para saber el tipo (relé, transistor)
 
 4-Documentos
